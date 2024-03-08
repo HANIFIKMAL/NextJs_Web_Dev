@@ -1,0 +1,74 @@
+.webtry_header{
+    display: flex;
+}
+
+.webtry_header-content{
+    flex-wrap: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.webtry_header-content h1{
+    font-family: var(--font-family);
+
+}
+
+.webtry_header-content p{
+    font-family: var(--font-family);
+    margin-top: 1.5rem;
+}
+
+.webtry_header-content_input{
+    font-family: var(--font-family);
+    margin: 1rem 0 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+
+.webtry_header-content_input form {
+    display: flex;
+    align-items: center;
+}
+
+.webtry_header-content_input input[type='text']{
+    font-family: var(--font-family);
+    background: #ffffff;
+    min-height: 50px;
+    flex: 1;
+    width: 100%;
+    line-height: 27px;
+    padding: 0 1rem;
+    outline: 10px;
+    border: 2px solid;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.webtry_header-content_input button{
+    flex: 0.1;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    line-height: 20px;
+    border: 2px solid;
+    padding: 0 1rem;
+    cursor: pointer;
+    border:  2px solid;
+    background-color: #ffffff;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.webtry_header-content_input button:hover {
+    background-color: #0056b3; /* Change the hover color as needed */
+}

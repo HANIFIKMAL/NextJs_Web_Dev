@@ -1,0 +1,10 @@
+.card-container {
+    overflow-x: hidden;
+    position:flex;
+    width: 64px;
+    height: 96px;
+}
+.rounded-md {
+    overflow: hidden; /* Ensure images don't overflow the container */
+    border-radius: 8px; /* Add rounded corners for each image */
+}

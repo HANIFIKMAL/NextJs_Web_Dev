@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px; 
+    margin: 50px;
+    position: relative;
+    object-fit: contain;
+    color:black;
+    
+}
+
+.grid-item {
+    background-color: Gray;
+    border-radius: 5px;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+}
